@@ -22,7 +22,7 @@ img{
 }
 
 video {
-  animation: spin 7.5s linear infinite; /* Applies the 'spin' animation */
+  animation: spin 13s linear infinite; /* Applies the 'spin' animation */
   /* 2s: duration of one rotation */
   /* linear: animation speed is constant */
   /* infinite: animation repeats indefinitely */
