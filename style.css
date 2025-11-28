@@ -35,7 +35,7 @@ video {
     transform-origin: center center;
     /* Apply the animation */
     animation-name: growShrink;
-    animation-duration: 3s; /* Time for one full cycle */
+    animation-duration: 0.95s; /* Time for one full cycle */
     animation-iteration-count: infinite; /* Loop indefinitely */
     animation-timing-function: ease-in-out; /* Smooth start and end */
 
@@ -45,19 +45,19 @@ video {
   transform-origin: center center ;
  
   animation-name: growShrink;
-  animation-delay: 1.5s;
-  animation-duration: 3s;
+  animation-delay: 0.475s;
+  animation-duration: 0.95s;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
 }
 @keyframes growShrink {
     0% {
-        transform: scale(1); /* Original size */
+        transform: scale(0.6); /* Original size */
     }
     50% {
         transform: scale(1.2); /* Grows to 120% size */
     }
     100% {
-        transform: scale(1); /* Returns to original size */
+        transform: scale(0.6); /* Returns to original size */
     }
 }
